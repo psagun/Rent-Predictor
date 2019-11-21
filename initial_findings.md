@@ -8,3 +8,4 @@ The model used for test2 data was Random Forest Regression. We expect a mean squ
 - (ii) A 200-300 word summary outlining the team’s intended strategy to improve the predictions
 for the final round.
 
+We can improve the prediction by implementing  gardient boosting for regression and checking the model. So gradient boosting can lead to better performance because of its nature. GBMs build an ensemble of weak successive trees with each tree learning improving on the previous errors. It is also good for handling missing data and has lots of flexibilty than Random Forest Regression.
