@@ -1,6 +1,6 @@
 # CSC 599.70: Course Project: Predict Asking Rents for NYC apartments
 
-- Ahsun Rasool, snjgrg 
+> Team: Ahsun Rasool, snjgrg, sagunpandey123 
 
 ## November 23 Deliverables:
 
