@@ -30,15 +30,10 @@
     - Access granted to grantmlong
 
 - [X] csv with predictions against test3.csv. 
-```
-The csv must consist exclusively of 2 columns, header rows with the titles rental_id and predictions,
-and the 2,000 rental ids and corresponding rent predictions. 
-A example of the required formatting can be found here,
-with suggested methodology for creating the submission file here.
-```
+    - The csv must consist exclusively of 2 columns, header rows with the titles rental_id and predictions.
+    
+
 - [X] A markdown file posted in the proejct Github repo entitled project_findings.md containing:
-```
-1)  A markdown file entitled project_findings.md containing answers and supporting evidence
-for all of points in the Questions and Tasks section that follows.
-2)  A Jupyter notebook allowing for the complete replication of the modeling process.
-```
+    - A markdown file entitled project_findings.md containing answers.
+    - A Jupyter notebook allowing for the complete replication of the modeling process.
+
