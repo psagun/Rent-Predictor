@@ -2,6 +2,11 @@
 
 > Team: Ahsun Rasool, Phurpa Sherpa, Sagun Pandey, Sanjay Gurung
 
+> Important:  The datasets from NYC Open Data are large and therefore exceed Githib's 25 MB upload limit. 
+>              If attempting to replicate the whole modeling process from the start, make sure to download
+>              them to your local machine and change the import path. URLs to the datasets are provided 
+>              in the notebook cells.
+
 ## November 23 Deliverables:
 
 - [X] An email to the professor with:
@@ -21,4 +26,13 @@
     
 ## December 7 Deliverables:
 
-<img src='https://media.giphy.com/media/wf71hhNOVYGK4/giphy.gif' title='gif2' alt='gif2' />
+
+- [X] An email to the professor with:
+    - Names of all members of the team and team name
+    - Link to the team repository on GitHub
+
+- [X] csv with predictions against test3.csv
+
+- [X] Markdown file posted in the Github repo entitled project_findings.md
+
+- [X] Jupyter notebook allowing for the complete replication of the modeling process.
