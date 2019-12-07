@@ -19,10 +19,11 @@
 ```
 (a) What outliers present issues for your analysis? How have you chosen to handle them? Why?
 
-    The outliers which had the most effect on the model were square feet and rent, since they were strongly 
-    correlated. We handled them by normalizing the dataset and exlcuding the top five percent of rents and 
-    square footage. This seemed to be the best way of ensuring that only the problemtic data points were 
-    removed without affecting the overall distribution.
+    The outliers which had the most effect on the model were square feet, floor count, bathroom and rent, since 
+    they were strongly correlated. We handled them by visualizing the data and droping the highest values outside
+    a certain range. Some missing values were not filled in but treated a outliers and thus dropped. This seemed 
+    to be the best way of ensuring that only the problemtic data points were removed without affecting the 
+    overall distribution.
 
 (b) To what extent do missing values pose a challenge for your analysis? How have you chosen to
 handle them? Why?
