@@ -114,7 +114,7 @@ well?
     
 (c) Would you rather have more data, or more features?
 
-    We would rather have more features that have stringer correlations to the rent. We currently have almost around 16,000
+    We would rather have more features that have stronger correlations to the rent. We currently have almost around 16,000
     data points (including training, test1, test2). More data would not be that much more helpful, unlike more useful features.
     
 ```
