@@ -36,6 +36,10 @@ handle them? Why?
 
 (c) Are there any other aspects of the data your exploration shows might be problematic?
 
+    Our distribution plots and scatter plots show a large number of listings have square footage in the range 
+    of 500 and 1500. While not that big of an issue in our current test sets, this could be a problem if we 
+    start seeing alot of listing outside of this range. These "clusters" could cause significant deviations in another dataset.
+
 (d) Create at least one visualization that demonstrates the predictive power of your data.
 
     Please see the Jupyter Notebook for visualizations.
@@ -86,8 +90,11 @@ well?
     
 (c) Are there any special cases in which your model works particularly well or particularly poorly?
 
-    The model works well for 
-    
+    Our model work particularyly well for listings having square footage in the range of 500 and 1500. We see a large 
+    cluster around here during the data exploration. However, this could become problematic if we start seeing a large 
+    number of listings outside this range. Real estates prices are not really linear (as demontrated through our current 
+    datasets) so our current model may not scale well for listing of particularly large sizes.
+
 (d) Create at least one visualization that demonstrates the predictive power of your model.
 
     Please see the Jupyter Notebook for visualizations.
@@ -97,7 +104,8 @@ well?
 ```
 (a) How would you use this model?
 
-    
+    This model works well for listing of less than 5 bedrooms, 4 bathrooms, and less than 2300 square footage. So we would 
+    continue to use this for for predicting rent prices.
 
 (b) If you could have additional modeling features, what would they be?
 
