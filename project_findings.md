@@ -2,7 +2,6 @@
 
 ```
 (a) What outside data have you appended to the original data set? Why did you choose this data?
-
     We decided to use NYC Department of Buildings' Building Violations and Building Complaints datasets. One 
     reason was that it would be easy to join to out original dataset, since every complaint/violation was 
     dependent on a bin number. We also assumed that builings with fewer complaint/violation would be in better 
@@ -10,7 +9,6 @@
     without complaint/violation would be newly built and therefore have higher rents.
 
 (b) Does the inclusion of this additional data raise any ethical considerations?
-
     The datasets raise no ethical considerations.
 
 ```
@@ -18,16 +16,13 @@
 ## (2) Data Exploration.
 ```
 (a) What outliers present issues for your analysis? How have you chosen to handle them? Why?
-
     The outliers which had the most effect on the model were square feet, floor count, bathroom and rent, since 
     they were strongly correlated. We handled them by visualizing the data and droping the highest values outside
     a certain range. Some missing values were not filled in but treated a outliers and thus dropped. This seemed 
     to be the best way of ensuring that only the problemtic data points were removed without affecting the 
     overall distribution.
 
-(b) To what extent do missing values pose a challenge for your analysis? How have you chosen to
-handle them? Why?
-
+(b) To what extent do missing values pose a challenge for your analysis? How have you chosen to handle them? Why?
     Missing values were handled in a few different ways: for binary data points, they were all set to zero. 
     Floor count, year built, and minutes to subway were filled in with the means of the columns. 
     All other were filled in with columns medians. With binary values like has fireplace or has garage we 
@@ -36,13 +31,12 @@ handle them? Why?
     best subsitiute for all others.
 
 (c) Are there any other aspects of the data your exploration shows might be problematic?
-
     Our distribution plots and scatter plots show a large number of listings have square footage in the range 
     of 500 and 1500. While not that big of an issue in our current test sets, this could be a problem if we 
-    start seeing alot of listing outside of this range. These "clusters" could cause significant deviations in another dataset.
+    start seeing alot of listing outside of this range. These "clusters" could cause significant deviations 
+    in another dataset.
 
 (d) Create at least one visualization that demonstrates the predictive power of your data.
-
     Please see the Jupyter Notebook for visualizations.
 
 ```
@@ -52,8 +46,7 @@ handle them? Why?
 • How did you create these features?
 • How do you know these features are playing key roles?
 If your modeling process uses less than five features, explain why you think other features didn’t
-add value.
-    
+add value.    
   square footage, bathroom, floor count, has doorman, has gym
   These features all had the high Pearson Correlation between them and rent in the training dataset.
   All the other features we used had much weaker correlations, even the ones we would expect to have high such
@@ -72,13 +65,11 @@ well?
     trees did not perform as well as we would have hoped. Another major reason was that that decision treestake 
     into account interactions between variables automatically, wheras a model like linear regression cannot. 
     Decision tree also allow non-linear data, wheras more linear model are limited in this approach.
-    
 ```
 
 ## (4) Metrics, Validation, and Evaluation.
 ```
 (a) How well do you think you model will perform on the hold out test set? How do you know?
-
     This model will probably perform well on the hold out test set. The low mean score error we obtained would
     indicate the our models is performing well. The hold out test set should be a good sub-sample, and since 
     the model worked well on the lower quality training data, there should be no issues with the test set.
@@ -99,12 +90,10 @@ well?
 (d) Create at least one visualization that demonstrates the predictive power of your model.
 
     Please see the Jupyter Notebook for visualizations.
-    
 ```
 ## (5) Conclusion
 ```
 (a) How would you use this model?
-
     This model works well for listing of less than 5 bedrooms, 4 bathrooms, and less than 2300 square footage. So we would 
     continue to use this for for predicting rent prices.
 
@@ -115,6 +104,5 @@ well?
 (c) Would you rather have more data, or more features?
 
     We would rather have more features that have stronger correlations to the rent. We currently have almost around 16,000
-    data points (including training, test1, test2). More data would not be that much more helpful, unlike more useful features.
-    
+    data points (including training, test1, test2). More data would not be that much more helpful, unlike more useful features.   
 ```
