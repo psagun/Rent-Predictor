@@ -30,6 +30,7 @@ will be judged on the mean squared error of our estimated rents for the provided
 > open sources.
 
 <img src='https://media.giphy.com/media/wf71hhNOVYGK4/giphy.gif' title='gif2' alt='gif2' />
+
 ## Deliverables:
 
 - [X] csv with predictions against test2.csv
