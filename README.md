@@ -1,4 +1,5 @@
-# CSC 599.70: Course Project: Predict Asking Rents for NYC apartments
+# Data Science Course Project
+# Predict Asking Rents for NYC apartments
 
 > Team: Ahsun Rasool, Phurpa Sherpa, Sagun Pandey, Sanjay Gurung
 
@@ -21,4 +22,3 @@
 - [X] A markdown file posted in the project Github repo entitled project_findings.md containing:
     - A markdown file entitled project_findings.md containing answers.
     - A Jupyter notebook allowing for the complete replication of the modeling process.
-
