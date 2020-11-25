@@ -4,12 +4,6 @@
 
 ## November 23 Deliverables:
 
-- [X] An email to the professor with:
-    - Creative team name,
-    - Names of all members of the team
-    - Link to the team repository on GitHub
-    - Access granted to grantmlong
-
 - [X] csv with predictions against test2.csv
 
 - [X] A 200-300 word explanation:
