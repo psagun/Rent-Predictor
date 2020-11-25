@@ -1,6 +1,6 @@
 # Data Science Course Project
 # Predict Asking Rents for NYC apartments
-> Team: Ahsun Rasool, Phurpa Sherpa, Sagun Pandey, Sanjay Gurung
+> Team: Sagun Pandey, Ahsun Rasool, Phurpa Sherpa, Sanjay Gurung
 
 ## Goal
 > The goal of this project is to apply our data handling and modeling skills taught in the class to a real
@@ -31,8 +31,7 @@ will be judged on the mean squared error of our estimated rents for the provided
 
 <img src='https://media.giphy.com/media/wf71hhNOVYGK4/giphy.gif' title='gif2' alt='gif2' />
 
-## Deliverables:
-
+## Deliverables
 - [X] csv with predictions against test2.csv
 
 - [X] A 200-300 word explanation:
