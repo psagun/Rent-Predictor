@@ -13,7 +13,7 @@
 - [X] A 200-300 word explanation:
     - intended strategy to improve the predictions for the final round
     
-## December 7 Deliverables:
+## Deliverables:
 
 <img src='https://media.giphy.com/media/wf71hhNOVYGK4/giphy.gif' title='gif2' alt='gif2' />
 
